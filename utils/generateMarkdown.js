@@ -50,7 +50,7 @@ ${data.usage}
 ## License
 ${renderLicenseSection(data.license)}
 ## Contributing
-${answers.contributing}
+${data.contributing}
 ## Tests
 ${data.test}
 ## Questions
