@@ -1,5 +1,5 @@
-# 
-  ![liscense shield](https://img.shields.io/badge/license-BSD3-blue)
+# Title
+  ![liscense shield](https://img.shields.io/badge/license-APACHE2.0-blue)
   ## Table of Contents
   - [Description](#description)
   - [License](#license)
@@ -11,7 +11,7 @@
 ## Description
 
 ## License
-This project is licensed under BSD3. For more information please see [the liscense page](https://choosealicense.com/licenses/bsd-3-clause/)
+This project is licensed under APACHE2.0. For more information please see [the liscense page](https://choosealicense.com/licenses/apache-2.0/)
 ## Installation
 Install using 
 ## Usage
