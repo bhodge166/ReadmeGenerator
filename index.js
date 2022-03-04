@@ -34,7 +34,7 @@ const questions = [
     type: "list",
     message: "Please choose the applicable liscense:",
     name: "license",
-    choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "none"],
+    choices: ["mit", "apache-2.0", "gpl-3.0", "bsd-3-clause", "none"],
   },
   {
     type: "input",
@@ -62,10 +62,9 @@ function writeToFile(fileName, data) {
 
 // TODO: Create a function to initialize app
 function init() {
-    inquirer.prompt(questions)
-    .then((response) => {
-        writeToFile("README.md", generateMarkdown(response))
-    })
+  inquirer.prompt(questions).then((response) => {
+    writeToFile("README.md", generateMarkdown(response));
+  });
 }
 
 // Function call to initialize app
